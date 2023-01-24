@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charsehsl(180, 76%, 22%)>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Dério Oliveira">
+    <meta name="keywords" content="Currículo, Programação, HTML, CSS">
+    <link rel="stylesheet" href="css/Curriculo.css">
+    <title>Curriculo Dério</title>
+    <link rel="shortcut icon" href="/curriculo_novo/imagens/curriculo.png" type="imagens/png">
+</head>
+
+
+<body>
+    <!--Aqui é a parte de cima da página-->
+    <header>
+        <a class="home" href=""><img src="./imagens/home.png" style=" height:70px; width:70px;"></a>
+        <img  class ="fotoDerio" src="./imagens/eu.png" >
+        <p class="canto1">Dério Crisóstomo Oliveira</p>
+        <p class="canto2">Estudante de Engenharia Eletrônica</p>
+    </header>
+    <!--Aqui é a construção da barra de navegação-->
+    <div class="navbar">
+        <!--Aqui é a parte esquerda da barra (antes da foto)-->
+        <nav class="left">
+            <ul class="list">
+                <li><button class=" linkE bordal" onclick="objetivo1()">Objetivo</button></li>
+                <li><button class=" linkD bordal" onclick="formação1()">Formação</button></li>
+            </ul>
+        </nav>
+        <!--div criada para deixar a foto centralizada, preci melhorar futuramente-->
+        <div class="imagem"></div>
+        <!--Aqui é a parte direita da barra de navegação(depois da foto)-->
+        <nav class="right">
+            <ul class="list">
+                <li><button class=" linkE bordal" onclick="habilidades1()">Habilidades</button></li>
+                <li><button class=" linkD bordal" onclick="cursos1()">Cursos</button></li>
+            </ul>
+        </nav>
+    </div>
+    <!--Aqui é a criação do cartão onde irão as informações-->
+    <div class="card ">
+        <!--Aqui é a mensagem inicial, onde fica os contatos-->
+        <div class="dentroCard">
+            <!--Titulo da pagina inicial-->
+            <div class="nome">
+            <p id="nomed"><strong>Dério Crisóstomo Oliveira</strong></p>
+            </div>
+            <div class="desisto">
+                <p >Estudante de Engenharia Eletrônica</p>
+            </div>
+            <!-- Aqui é onde ficam as redes sociais-->
+            <div class="infos ">
+                <div class="cima ">
+                    <div class="esquerda ">
+                        <a href="https://www.linkedin.com/in/derio-crisostomo-oliveira-06606b225/" target="_blank"><img src="./imagens/linkedin.png" alt=""></a>
+                        <br>
+                        <a href="https://www.linkedin.com/in/derio-crisostomo-oliveira-06606b225/" target="_blank">Dério Oliveira</a>
+                    </div>
+
+                    <div class="direita ">
+                        <a href="https://github.com/DerioEle" target="_blank"><img src="./imagens/github.png" alt=""></a>
+                        <br>
+                        <a href="https://github.com/DerioEle" target="_blank">Dério Oliveira</a>
+                    </div>
+                </div>
+
+                <div class="baixo ">
+                    <div class="esquerda ">
+                        <a href="https://www.instagram.com/derio_oliveira/" target="_blank"><img src="./imagens/instagram.png" alt=""></a>
+                        <br>
+                        <a href="https://www.instagram.com/derio_oliveira/" target="_blank">Dério Oliveira</a>
+                    </div>
+                    
+                    <div class="direita ">
+                        <a href="https://wa.me/5592991941907?text=D%C3%A9rio+Oliveira" target="_blank"><img src="./imagens/whatsapp.png" alt=""></a>
+                        <br>
+                        <a href="https://wa.me/5592991941907?text=D%C3%A9rio+Oliveira" target="_blank">Dério Oliveira</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Aqui é onde ficam os objetivos-->
+        <div class="objetivo">
+            <h1>Objetivo Profissional</h1>
+            <p>Visando seguir na área de programação e de sistemas embarcados.</p>
+            <p><strong>Cargos de Interesse:</strong> Estágio, desenvolvedor de software ou similares.</p>
+        </div>
+        <!--Aqui é onde ficam a formação-->
+        <div class="formação">
+            <div class="titulo2">
+                <h1>Formação</h1>
+            </div>
+
+            <div class="corpot">
+                <div class="medio ">
+                    <h1>Ensino Médio</h1>
+                    <p>(2019 - 2021)</p>
+                    <p>Escolas Idaam</p>
+                </div>
+
+                <div class="superior ">
+                    <h1>Ensino Superior</h1>
+                    <p>Engenharia Eletrônica (2021 - Atual)</p>
+                    <p>Universidade Estadual do Amazonas</p>
+                </div>
+            </div>
+        </div>
+        <!--Aqui é onde ficam as habilidades-->
+        <div class="habilidades">
+            <div>
+                <h1 class="titulo1">Habilidades</h1>
+            </div>
+
+            <div class="hab ">
+                <div class="softskills ">
+                    <h2>Softskills</h2>
+                    <ul>
+                        <li>Colaborativo</li>
+                        <li>Comunicativo</li>
+                        <li>Organizado</li>
+                    </ul>
+                </div>
+
+                <div class="programação ">
+                    <h2>Programação</h2>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>C</li>
+                    </ul>
+                </div>
+
+                <div class="softwares ">
+                    <h2>Softwares</h2>
+                    <ul>
+                        <li>Eagle</li>
+                        <li>MATLAB</li>
+                        <li>Multisim</li>
+                    </ul>
+                </div>
+
+                <div class="idiomas ">
+                    <h2>Idiomas</h2>
+                    <ul>
+                        <li>Inglês-B2</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!--Aqui é onde ficam os cursos-->
+        <div class="cursos">
+            <div class="titulo">
+                <h1 class="titulo1">Cursos</h1>
+            </div>
+            
+            <div class="corpoc">
+                <div class="dados  ">
+                    <a href="https://docs.google.com/document/d/1NYDX2CK9IOUJD88nnxcvZMICEjP7gAHnExgbR78SM34/edit?usp=sharing" target="_blank">Ciência de Dados</a>
+                    <p>Voluntário durante o curso de extensão sobre Ciências de Dados. </p>
+                </div>
+                
+                <div class="emocional  ">
+                    <a href="https://docs.google.com/document/d/1jtOlosfZE-3Zyt1Nl_lFy6MLKZuRK7fIVsabk6DxrUQ/edit?usp=sharing" target="_blank">Inteligência Emocional</a>
+                    <p>Curso de Inteligência Emocional oferecido pela Escola Nacional de Administração Pública.</p>
+                </div>
+
+                <div class="robotica ">
+                    <a href="https://docs.google.com/document/d/1b9_BCWSe4klPeJSeg0bqeheAhCMLLBKb-liSIfg3qU0/edit?usp=sharing" target="_blank"> Robótica Básica</a>
+                    <p>Cursos e conceitos da Industria 4.0 do pilar atração da Academia STEM.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ <script>
+    function objetivo1(){
+        document.querySelector(".dentroCard").style.display = "none"
+        document.querySelector(".formação").style.display = "none"
+        document.querySelector(".habilidades").style.display = "none"
+        document.querySelector(".cursos").style.display = "none"
+        document.querySelector(".objetivo").style.display = "flex"
+        document.querySelector(".home").style.display = "block"
+        document.querySelector(".canto1").style.display = "block"
+        document.querySelector(".canto2").style.display = "block"
+    }
+
+    function formação1(){
+        document.querySelector(".dentroCard").style.display = "none"
+        document.querySelector(".objetivo").style.display = "none"
+        document.querySelector(".habilidades").style.display = "none"
+        document.querySelector(".cursos").style.display = "none"
+        document.querySelector(".formação").style.display = "flex"
+        document.querySelector(".home").style.display = "block"
+        document.querySelector(".canto1").style.display = "block"
+        document.querySelector(".canto2").style.display = "block"
+    }
+
+    function habilidades1(){
+        document.querySelector(".dentroCard").style.display = "none"
+        document.querySelector(".objetivo").style.display = "none"
+        document.querySelector(".formação").style.display = "none"
+        document.querySelector(".cursos").style.display = "none"
+        document.querySelector(".habilidades").style.display = "flex"
+        document.querySelector(".home").style.display = "block"
+        document.querySelector(".canto1").style.display = "block"
+        document.querySelector(".canto2").style.display = "block"
+    }
+
+    function cursos1(){
+        document.querySelector(".dentroCard").style.display = "none"
+        document.querySelector(".objetivo").style.display = "none"
+        document.querySelector(".formação").style.display = "none"
+        document.querySelector(".habilidades").style.display = "none"
+        document.querySelector(".cursos").style.display = "flex"
+        document.querySelector(".home").style.display = "block"
+        document.querySelector(".canto1").style.display = "block"
+        document.querySelector(".canto2").style.display = "block"
+    }
+ </script>
+</body>
+</html>

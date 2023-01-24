@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+body{
+    margin: 0;
+    background: hsl(199, 94%, 25%);
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow-y: hidden;
+    /* background-image: url(../imagens/circuitos.png);
+    background-size: 70%; */
+    
+}
+
+.borda{
+    border: 1px solid red;
+}
+header{
+    background-image: url(../imagens/header1.png);
+    width: 100%;
+    height: 230px;
+    background-size: cover;
+    text-align: center;
+}
+.home{
+    display: none;
+    position: absolute;
+    left: 80px;
+    top: 40px;
+    z-index: 15;
+    background: #ffffff;
+    border: 3px solid hsl(199, 94%, 25%);
+    border-radius: 50%;
+    overflow: hidden;
+   
+}
+.canto1, .canto2{
+    display: none;
+    position: absolute;
+    right: 20px;
+    color: aqua;
+    background: #000000;
+    font-weight: bold;
+}
+.canto1{
+    top: 20px;
+    right: 80px;
+    font-size: 18pt;
+}
+.canto2{
+    top: 52px;
+    right: 60px;
+    font-size: 16pt;
+}
+.fotoDerio{
+    margin-top: 130px;
+    height: 270px;
+    width: 270px;
+    border: 3px solid #101316;
+    border-radius: 50%;
+    background-color: #d7cdc1;
+    background-size: contain;
+    background-repeat: initial;
+    position: relative;
+    z-index: 3;
+    /* background-color: #101316; */
+    
+}
+.navbar{
+    display: flex;
+    height: 100px;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.left, .right{
+    flex: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+.right{
+    margin-right: 4%;
+}
+.imagem{
+    flex:18%;
+    text-align: center;
+}
+
+ .navbar ul{
+    list-style: none;
+    display: flex;
+    
+}
+ul li button {
+    padding: 10px 20px;
+    font-size: 25pt;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    background: #aae2e2;
+    height: 60px;
+    width: 220px;
+    text-align: center;
+}
+ul li button:hover{
+    background:#195555 ;
+    color: white;
+}
+.linkE{
+    margin-right: 30px;
+}
+.linkD{
+    margin-left: 30px;
+}
+
+.bordal{
+    border: 1px solid black;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.sinais img{
+    height: 70px ;
+    width: 70px;
+}
+.card{
+    height: 370px;
+    width: 750px;
+    background: white;
+    margin-left: 26%;
+    margin-top: 2%;
+    border-radius: 30px;
+    border: 2px solid #38494d;
+    box-shadow: 3px 2px 5px #495f63;
+    z-index: 1;
+}
+.dentroCard{
+    display: block;
+    position: relative;
+    z-index: 0;
+}
+.nome{
+    text-align: center;
+    height: 70px;
+    border: 1px solid white;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+#nomed{
+    font-size: 30pt;
+}
+.desisto{
+ text-align: center;
+ font-size: 20pt;
+ border: 1px solid white;
+}
+.infos{
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 180px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.infos img{
+    height: 60px;
+    width: 60px;
+}
+.cima, .baixo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.esquerda, .direita{
+    flex: 50%;
+    text-align: center;
+} 
+a{
+  text-decoration: none;
+  color: #101316;
+  font-size: 17pt;
+}
+.baixo{
+    margin-top: 14px;
+}
+.esquerda:hover , .direita:hover{
+    font-size: 18pt;
+}
+.esquerda:hover img , .direita:hover img{
+    height: 70px;
+    width: 70px;
+}
+
+.objetivo{
+    padding-top: 4%;
+    display: none;
+    position: relative;
+    z-index: 5;
+    text-align: center;
+    font-size: 18pt;
+    align-items: center;
+    justify-content: center;
+    flex-flow:  row wrap;
+}
+.formação{
+    display: none;
+    z-index: 10;
+    position: relative;
+    font-size: 15pt;
+    padding-top: 4%;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    
+}
+.titulo2{
+    flex: 100%;
+    text-align: center;
+    font-size: 18pt;
+}
+.corpot{
+    display: flex;
+    flex-flow: row wrap;
+    width: 760px;
+}
+.corpot h1{
+    font-size: 24pt;
+}
+.medio, .superior{
+    text-align: center;
+    flex: 30%;
+}
+
+.habilidades{
+    display: none;
+    z-index: 10;
+    position: relative;
+    font-size: 15pt;
+    padding-top: 4%;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+.titulo1{
+    font-size: 36pt;
+}
+.hab{
+    display: flex;
+    flex-flow: row wrap;
+    width: 650px;
+    padding-right: 2%;
+}
+.idiomas h2{
+    text-align:right;
+}
+.softskills h2{
+    text-align: center;
+}
+.softskills ,.programação, .idiomas, .softwares{
+    margin: 0 2% 0 2%;
+}
+.cursos{
+    display: none;
+    z-index: 10;
+    position: relative;
+    font-size: 15pt;
+    padding-top: 4%;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+.titulo{
+    flex: 100%;
+}
+.corpoc{
+    width: 700px;
+    height: 180px;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 1%;
+    margin-bottom: 10%;
+}
+.dados, .emocional, .robotica{
+    flex:31%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 6px;
+    padding-top: 10px;
+}
+.dados a, .emocional a, .robotica a{
+    font: 15pt;
+    font-weight: bold;
+}
+.dados a:hover, .emocional a:hover, .robotica a:hover{
+    font-size: 18pt;
+    color: hsl(199, 94%, 25%);
+}
